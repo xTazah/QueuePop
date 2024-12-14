@@ -1,6 +1,8 @@
 # LoLQueuePop
 
-**LoLQueuePop** is a Python-based automation script designed to help you accept League of Legends queue pops remotely. League of Legends queues can sometimes last 5-10 minutes, with only a short window to accept the queue pop. If you're away from your computer during this window, you might miss the opportunity to join the match. This script moves your mouse and clicks the accept button automatically, ensuring you never miss a queue pop.
+**LoLQueuePop** is a Python-based automation script designed to help you accept League of Legends queue pops **remotely**. League of Legends queues can sometimes last 5-10 minutes, with only a short window to accept the queue pop. If you're away from your computer during this window, you might miss the opportunity to join the match. This script moves your mouse and clicks the accept button automatically, ensuring you never miss a queue pop.
+
+![QueuePop](images/QueuePop.png)
 
 ## Usage
 
