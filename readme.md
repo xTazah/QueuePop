@@ -28,10 +28,10 @@
    - **Important:** Running the Python script directly via SSH won't work because SSH is headless (no graphical interface), so the Python script can't access the mouse input device. To solve this, the script should be run through a **Scheduled Task**.
    - #### Setup for SSH access:
 
-5. **Install OpenSSH Server** on your Windows machine via the Settings or PowerShell.
-6. **Open Port 22** in your firewall to allow SSH connections.
-7. **Configure RSA Key**: Generate an RSA key pair on your phone and add the public key to the `authorized_keys` file on your Windows machine in the `.ssh` folder.
-8. **Configure SSH Server**: Ensure the SSH configuration is set to allow public key authentication (`PubkeyAuthentication yes`), and the `authorized_keys` file is located in `.ssh/authorized_keys`.
+      - **Install OpenSSH Server** on your Windows machine via the Settings or PowerShell.
+      - **Open Port 22** in your firewall to allow SSH connections.
+      - **Configure RSA Key**: Generate an RSA key pair on your phone and add the public key to the `authorized_keys` file on your Windows machine in the `.ssh` folder.
+      - **Configure SSH Server**: Ensure the SSH configuration is set to allow public key authentication (`PubkeyAuthentication yes`), and the `authorized_keys` file is located in `.ssh/authorized_keys`.
 
 9. **Scheduled Task:**
    - To ensure the script can control the mouse even when accessed remotely via SSH, configure the script to run as a Windows Task using Task Scheduler:
