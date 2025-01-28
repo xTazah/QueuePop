@@ -1,1 +1,4 @@
 pyautogui
+pygetwindow
+pywin32
+psutil
